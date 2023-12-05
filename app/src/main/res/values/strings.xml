@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">STAGII</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_view_shared_element_transition_name">nav_view_shared_element_transition_name</string>
+
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="login_button_description">Go</string>
+    <string name="home_fragment_field_status">Status</string>
+    <string name="home_fragment_field_companies">Companies</string>
+    <string name="home_fragment_field_job_applied">Jobs Applied</string>
+    <string name="home_fragment_job_list">Recent Job List</string>
+    <string name="field_value_count">%s!</string>
+    <string name="field_apply">Apply</string>
+    <string name="hello">Hello Ilyess</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="field_username">Username</string>
+    <string name="field_email">Email</string>
+    <string name="field_password">Password</string>
+    <string name="field_login">Login</string>
+    <string name="field_signup">Sign Up</string>
+    <string name="field_back_to_login">Back to login</string>
+    <string name="field_open_email">Open Your Email</string>
+    <string name="field_reset_password">Reset Password</string>
+    <string name="field_forgot_password">Forgot Password ?</string>
+    <string name="sign_up_prompt">You don\'t have an account yet? Sign up</string>
+    <string name="login_fragment_sub_heading">Let’s Login. Fill in your details to apply for jobs!</string>
+    <string name="login_fragment_heading">Welcome Back</string>
+    <string name="menu_field_home">Home</string>
+    <string name="menu_field_alert">Alerts</string>
+    <string name="menu_field_test">Contacts</string>
+    <string name="menu_field_jobs">Jobs</string>
+
+</resources>
