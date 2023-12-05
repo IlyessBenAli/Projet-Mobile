@@ -1,0 +1,94 @@
+[
+    {
+        "merged": "com.example.stagii.app-mergeDebugResources-44:/layout/list_users.xml",
+        "source": "com.example.stagii.app-main-47:/layout/list_users.xml"
+    },
+    {
+        "merged": "C:\\Users\\ILYESS LASS\\.gradle\\daemon\\8.0\\com.example.stagii.app-mergeDebugResources-44:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\ILYESS LASS\\.gradle\\daemon\\8.0\\com.example.stagii.app-main-47:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\ILYESS LASS\\.gradle\\daemon\\8.0\\com.example.stagii.app-mergeDebugResources-44:\\layout\\alert_card.xml",
+        "source": "C:\\Users\\ILYESS LASS\\.gradle\\daemon\\8.0\\com.example.stagii.app-main-47:\\layout\\alert_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\ILYESS LASS\\.gradle\\daemon\\8.0\\com.example.stagii.app-mergeDebugResources-44:\\layout\\firstpage_home.xml",
+        "source": "C:\\Users\\ILYESS LASS\\.gradle\\daemon\\8.0\\com.example.stagii.app-main-47:\\layout\\firstpage_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\ILYESS LASS\\.gradle\\daemon\\8.0\\com.example.stagii.app-mergeDebugResources-44:\\layout\\find_job.xml",
+        "source": "C:\\Users\\ILYESS LASS\\.gradle\\daemon\\8.0\\com.example.stagii.app-main-47:\\layout\\find_job.xml"
+    },
+    {
+        "merged": "C:\\Users\\ILYESS LASS\\.gradle\\daemon\\8.0\\com.example.stagii.app-mergeDebugResources-44:\\layout\\consulter_job.xml",
+        "source": "C:\\Users\\ILYESS LASS\\.gradle\\daemon\\8.0\\com.example.stagii.app-main-47:\\layout\\consulter_job.xml"
+    },
+    {
+        "merged": "C:\\Users\\ILYESS LASS\\.gradle\\daemon\\8.0\\com.example.stagii.app-mergeDebugResources-44:\\layout\\notification.xml",
+        "source": "C:\\Users\\ILYESS LASS\\.gradle\\daemon\\8.0\\com.example.stagii.app-main-47:\\layout\\notification.xml"
+    },
+    {
+        "merged": "C:\\Users\\ILYESS LASS\\.gradle\\daemon\\8.0\\com.example.stagii.app-mergeDebugResources-44:\\layout\\fragment_gallery.xml",
+        "source": "C:\\Users\\ILYESS LASS\\.gradle\\daemon\\8.0\\com.example.stagii.app-main-47:\\layout\\fragment_gallery.xml"
+    },
+    {
+        "merged": "com.example.stagii.app-mergeDebugResources-44:/layout/find_job.xml",
+        "source": "com.example.stagii.app-main-47:/layout/find_job.xml"
+    },
+    {
+        "merged": "C:\\Users\\ILYESS LASS\\.gradle\\daemon\\8.0\\com.example.stagii.app-mergeDebugResources-44:\\layout\\list_users.xml",
+        "source": "C:\\Users\\ILYESS LASS\\.gradle\\daemon\\8.0\\com.example.stagii.app-main-47:\\layout\\list_users.xml"
+    },
+    {
+        "merged": "C:\\Users\\ILYESS LASS\\.gradle\\daemon\\8.0\\com.example.stagii.app-mergeDebugResources-44:\\layout\\user_profile.xml",
+        "source": "C:\\Users\\ILYESS LASS\\.gradle\\daemon\\8.0\\com.example.stagii.app-main-47:\\layout\\user_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\ILYESS LASS\\.gradle\\daemon\\8.0\\com.example.stagii.app-mergeDebugResources-44:\\layout\\acceui.xml",
+        "source": "C:\\Users\\ILYESS LASS\\.gradle\\daemon\\8.0\\com.example.stagii.app-main-47:\\layout\\acceui.xml"
+    },
+    {
+        "merged": "C:\\Users\\ILYESS LASS\\.gradle\\daemon\\8.0\\com.example.stagii.app-mergeDebugResources-44:\\layout\\activity_home.xml",
+        "source": "C:\\Users\\ILYESS LASS\\.gradle\\daemon\\8.0\\com.example.stagii.app-main-47:\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\ILYESS LASS\\.gradle\\daemon\\8.0\\com.example.stagii.app-mergeDebugResources-44:\\layout\\student_acceuil.xml",
+        "source": "C:\\Users\\ILYESS LASS\\.gradle\\daemon\\8.0\\com.example.stagii.app-main-47:\\layout\\student_acceuil.xml"
+    },
+    {
+        "merged": "C:\\Users\\ILYESS LASS\\.gradle\\daemon\\8.0\\com.example.stagii.app-mergeDebugResources-44:\\layout\\job_detail_card.xml",
+        "source": "C:\\Users\\ILYESS LASS\\.gradle\\daemon\\8.0\\com.example.stagii.app-main-47:\\layout\\job_detail_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\ILYESS LASS\\.gradle\\daemon\\8.0\\com.example.stagii.app-mergeDebugResources-44:\\layout\\nav_header_main.xml",
+        "source": "C:\\Users\\ILYESS LASS\\.gradle\\daemon\\8.0\\com.example.stagii.app-main-47:\\layout\\nav_header_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\ILYESS LASS\\.gradle\\daemon\\8.0\\com.example.stagii.app-mergeDebugResources-44:\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\ILYESS LASS\\.gradle\\daemon\\8.0\\com.example.stagii.app-main-47:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\ILYESS LASS\\.gradle\\daemon\\8.0\\com.example.stagii.app-mergeDebugResources-44:\\layout\\content_main.xml",
+        "source": "C:\\Users\\ILYESS LASS\\.gradle\\daemon\\8.0\\com.example.stagii.app-main-47:\\layout\\content_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\ILYESS LASS\\.gradle\\daemon\\8.0\\com.example.stagii.app-mergeDebugResources-44:\\layout\\app_bar_main.xml",
+        "source": "C:\\Users\\ILYESS LASS\\.gradle\\daemon\\8.0\\com.example.stagii.app-main-47:\\layout\\app_bar_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\ILYESS LASS\\.gradle\\daemon\\8.0\\com.example.stagii.app-mergeDebugResources-44:\\layout\\list_item_user.xml",
+        "source": "C:\\Users\\ILYESS LASS\\.gradle\\daemon\\8.0\\com.example.stagii.app-main-47:\\layout\\list_item_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\ILYESS LASS\\.gradle\\daemon\\8.0\\com.example.stagii.app-mergeDebugResources-44:\\layout\\fragment_slideshow.xml",
+        "source": "C:\\Users\\ILYESS LASS\\.gradle\\daemon\\8.0\\com.example.stagii.app-main-47:\\layout\\fragment_slideshow.xml"
+    },
+    {
+        "merged": "com.example.stagii.app-mergeDebugResources-44:/layout/notification.xml",
+        "source": "com.example.stagii.app-main-47:/layout/notification.xml"
+    },
+    {
+        "merged": "C:\\Users\\ILYESS LASS\\.gradle\\daemon\\8.0\\com.example.stagii.app-mergeDebugResources-44:\\layout\\login.xml",
+        "source": "C:\\Users\\ILYESS LASS\\.gradle\\daemon\\8.0\\com.example.stagii.app-main-47:\\layout\\login.xml"
+    }
+]

@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:fillViewport="true"
+    >
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ivPopOut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/medium_margin"
+            android:contentDescription="@null"
+            android:paddingVertical="@dimen/small_padding"
+            android:src="@drawable/ic_arrow_left"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:tint="@color/icon_tint" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/ivCompanyLogo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="@dimen/medium_margin"
+            android:src="@drawable/sopra"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:id="@+id/tvRole"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:fontFamily="@font/dm_sans_bold"
+            android:maxLines="2"
+            android:paddingHorizontal="@dimen/small_padding"
+            android:paddingVertical="@dimen/small_padding"
+            android:textAlignment="center"
+            android:textColor="@color/text_color"
+            android:textSize="20sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ivCompanyLogo"
+            android:text="Ingenieur IT"/>
+
+        <TextView
+            android:id="@+id/tvCompanyLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:fontFamily="@font/dm_sans_regular"
+            android:maxLines="2"
+            android:paddingHorizontal="@dimen/small_padding"
+            android:paddingVertical="@dimen/small_padding"
+            android:textAlignment="center"
+            android:textColor="@color/text_color"
+            android:textSize="16sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvRole"
+            android:text="Lac 1 Tunis,Tunisie" />
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cvStudentApplied"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/medium_margin"
+            app:cardBackgroundColor="@color/card_background"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvCompanyLocation">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="@dimen/medium_padding">
+
+
+                <ImageView
+                    android:id="@+id/ivStudentLogo"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:contentDescription="@null"
+                    android:src="@drawable/ic_student"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/tvStudentApplied"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/medium_margin"
+                    android:fontFamily="@font/dm_sans_bold"
+                    android:text="Nombre Condidats Postulé"
+                    android:textColor="@color/text_color"
+                    android:textSize="16sp"
+                    app:layout_constraintLeft_toRightOf="@+id/ivStudentLogo"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/tvStudentCount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/extra_small_margin"
+                    android:fontFamily="@font/dm_sans_regular"
+                    android:text="50"
+                    android:textColor="@color/text_color"
+                    android:textSize="14sp"
+                    app:layout_constraintLeft_toLeftOf="@+id/tvStudentApplied"
+                    app:layout_constraintTop_toBottomOf="@+id/tvStudentApplied"
+                      />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <TextView
+            android:id="@+id/tvJobDescriptionHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/medium_margin"
+            android:fontFamily="@font/dm_sans_bold"
+            android:paddingVertical="@dimen/small_padding"
+            android:text="Job Description"
+            android:textColor="@color/text_color"
+            android:textSize="16sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cvStudentApplied"/>
+
+
+        <TextView
+            android:id="@+id/tvJobDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/medium_margin"
+            android:layout_marginTop="@dimen/small_margin"
+            android:layout_marginRight="@dimen/medium_margin"
+            android:fontFamily="@font/dm_sans_regular"
+            android:textSize="14sp"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintLeft_toLeftOf="@+id/tvJobDescriptionHeader"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvJobDescriptionHeader"
+            android:textColor="@color/black"
+                />
+
+        <TextView
+            android:id="@+id/tvSalaryHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/medium_margin"
+            android:fontFamily="@font/dm_sans_bold"
+            android:paddingVertical="@dimen/small_padding"
+            android:text="Salary"
+            android:textColor="@color/text_color"
+            android:textSize="16sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvJobDescription" />
+
+        <TextView
+            android:id="@+id/tvSalary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/medium_margin"
+            android:layout_marginTop="@dimen/small_margin"
+            android:fontFamily="@font/dm_sans_bold"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvSalaryHeader"
+            android:text="1700 TND/Mo" />
+
+        <TextView
+            android:id="@+id/tvResponsibilityHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/medium_margin"
+            android:fontFamily="@font/dm_sans_bold"
+            android:paddingVertical="@dimen/small_padding"
+            android:text="Responsibilities"
+            android:textColor="@color/text_color"
+            android:textSize="16sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvSalary" />
+
+        <TextView
+            android:id="@+id/tvResponsibility"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/medium_margin"
+            android:layout_marginTop="@dimen/small_margin"
+            android:layout_marginRight="@dimen/medium_margin"
+            android:fontFamily="@font/dm_sans_regular"
+            android:textSize="14sp"
+            android:textColor="@color/black"
+
+            app:layout_constraintLeft_toLeftOf="@+id/tvJobDescriptionHeader"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvResponsibilityHeader"
+            android:text=" Création des livrables essentiels, notamment des spécifications techniques, le flowchart du flux de la solution ainsi que les documents de formation techniques."/>
+        <TextView
+            android:id="@+id/tvRequiredSkillSet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/medium_margin"
+            android:fontFamily="@font/dm_sans_bold"
+            android:paddingVertical="@dimen/small_padding"
+            android:text="Profil"
+            android:textColor="@color/text_color"
+            android:textSize="16sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvResponsibility" />
+
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/requiredSkillSetChipGroup"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/medium_margin"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvRequiredSkillSet">
+
+        </com.google.android.material.chip.ChipGroup>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnApply"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/medium_margin"
+            android:layout_marginVertical="@dimen/medium_margin"
+            android:backgroundTint="@color/button_color"
+            android:fontFamily="@font/dm_sans_medium"
+            android:padding="@dimen/button_padding"
+            android:text="@string/field_apply"
+            android:textColor="@color/button_text_color"
+            android:textSize="16sp"
+            app:cornerRadius="6dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/requiredSkillSetChipGroup" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="16dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnApply" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>
