@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
+
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
@@ -15,17 +16,10 @@
         android:theme="@style/Theme.STAGII"
         tools:targetApi="31">
         <activity
-            android:name=".globalActivity.SplashScreenActivity"
-            android:exported="true"
-            android:label="@string/app_name"
-            android:theme="@style/Theme.STAGII.NoActionBar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:name=".AppHomeActivity"
+            android:exported="false" />
         <activity
-            android:name=".user.FaculteFragement"
+            android:name=".globalActivity.SplashScreenActivity"
             android:exported="true"
             android:theme="@style/Theme.STAGII.NoActionBar">
             <intent-filter>
@@ -38,124 +32,28 @@
         <activity
             android:name=".globalActivity.LoginActivity"
             android:exported="true"
-            android:label="@string/app_name"
-            android:theme="@style/Theme.STAGII.NoActionBar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:theme="@style/Theme.STAGII.NoActionBar" />
         <activity
             android:name=".globalActivity.HomeActivity"
             android:exported="true"
-            android:label="@string/app_name"
-            android:theme="@style/Theme.STAGII.NoActionBar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-
-
-
+            android:theme="@style/Theme.STAGII.NoActionBar" />
         <activity
             android:name=".job.Postulate"
             android:exported="true"
-            android:label="@string/app_name"
-            android:theme="@style/Theme.STAGII.NoActionBar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".globalActivity.StudentAcceuil"
-            android:exported="true"
-            android:label="@string/app_name"
-            android:theme="@style/Theme.STAGII.NoActionBar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:theme="@style/Theme.STAGII.NoActionBar" />
 
 
-        <activity
-            android:name=".job.JobFind"
-            android:exported="true"
-            android:label="@string/app_name"
-            android:theme="@style/Theme.STAGII.NoActionBar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
         <activity
             android:name=".user.UserProfile"
             android:exported="true"
-            android:label="@string/app_name"
-            android:theme="@style/Theme.STAGII.NoActionBar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".notification.Alert"
-            android:exported="true"
-            android:theme="@style/Theme.STAGII.NoActionBar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:theme="@style/Theme.STAGII.NoActionBar" />
 
 
-
-
-
-
-
-
-        <activity
-            android:name=".job.JobCardView"
-            android:exported="true"
-            android:label="@string/app_name"
-            android:theme="@style/Theme.STAGII.NoActionBar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:theme="@style/Theme.STAGII.NoActionBar">
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
-
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
-        </activity>
-        <activity
-            android:name=".globalActivity.firstPage"
-            android:exported="true"
-            android:theme="@style/Theme.STAGII.NoActionBar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:theme="@style/Theme.STAGII.NoActionBar" />
 
     </application>
-
 
 </manifest>
